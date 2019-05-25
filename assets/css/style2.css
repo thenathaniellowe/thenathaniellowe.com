@@ -1,0 +1,160 @@
+html, body {
+	background-color: #fefcfe;
+}
+
+#name {
+	width: 60%;
+	position: relative;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.nav2 {
+	width: 42vw;
+	height: 6vw;
+	bottom: 0px;
+	position: fixed;
+	z-index: 3;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(254, 252, 254, 0.6);
+	border-radius: .5vw;
+
+}
+
+#links_container {
+	width: 29vw;
+	height: 7vw;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(254, 252, 254, 0.6);
+	border-radius: .5vw;
+}
+
+.link {
+	width: 5vw;
+	height: 5vw;
+	position: relative;
+	display: inline-block;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-top: 1vw;
+
+}
+
+.icon {
+	position: relative;
+	height: 100%;
+	opacity: .6;
+	transition: .1s;
+}
+
+.white_bar {
+	background-color: #fefcfe;
+}
+
+#parallax_container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.parallax { 
+	position: relative;
+	height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+	background-color: rgba(254, 252, 254, 0.6);
+	padding: 2vw;
+	text-align: justify;
+	font-size: 2vw;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: .5vw;
+}
+
+@media only screen and (orientation: landscape) {
+	p:nth-child(4) {
+		top: -60%;
+	}
+	p:nth-child(5) {
+		top: -20%;
+	}
+	p:nth-child(9) {
+		top: -70%;
+	}
+	p:nth-child(10) {
+		top: -25%;
+	}
+	p:nth-child(18) {
+		top: -60%;
+	}
+
+	.parallax:nth-child(3) {
+		background-image: url("parallax/street.jpg");
+		background-position: bottom;
+	}
+	.parallax:nth-child(6) {
+		background-image: url("parallax/green_door.jpg");
+		margin-top: -10%;
+	}
+	.parallax:nth-child(8) {
+		background-image: url("parallax/orange_jacket.jpg");
+	}
+	.parallax:nth-child(11) {
+		background-image: url("parallax/trumpet.jpg");
+		margin-top: -10%;
+	}
+	.parallax:nth-child(13) {
+		background-image: url("parallax/driveway.jpg");
+	}
+	.parallax:nth-child(15) {
+		background-image: url("parallax/columbus.jpg");
+	}
+	.parallax:nth-child(17) {
+		background-image: url("parallax/brooklyn.jpg");
+	}
+	.parallax:nth-child(19) {
+		background-image: url("parallax/park.jpg");
+		top: -140px;
+	}
+	#links_container {
+		margin-top: -40%;
+	}
+}
+
+@media only screen and (orientation: portrait) {
+	#description_container {
+	font-size: 4vw;
+	}
+
+	.parallax {
+		display: none;
+	}
+
+	p {
+		font-size: 4vw;
+	}
+
+	#links_container {
+		width: 30vw;
+		padding-bottom: 30vw;
+	}
+
+	.nav2 {
+		width: 100%;
+		height: 24vw;
+		background-color: rgba(254, 252, 254, 0);
+	}
+}
