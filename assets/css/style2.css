@@ -26,7 +26,7 @@ html, body {
 #links_container {
 	width: 29vw;
 	height: 7vw;
-	position: relative;
+	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: rgba(254, 252, 254, 0.6);
@@ -63,7 +63,7 @@ html, body {
 
 .parallax { 
 	position: relative;
-	height: 100%;
+	height: 700px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,59 +78,80 @@ p {
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 	width: 80%;
-	position: relative;
+	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	border-radius: .5vw;
 }
 
 @media only screen and (orientation: landscape) {
-	p:nth-child(4) {
-		top: -60%;
+	p:nth-child(2) {
+		top: 0px;
+	}
+	p:nth-child(3) {
+		top: 300px;
 	}
 	p:nth-child(5) {
-		top: -20%;
+		top: 900px;
+	}
+	p:nth-child(6) {
+		top: 1400px;
+	}
+	p:nth-child(8) {
+		top: 2750px;
 	}
 	p:nth-child(9) {
-		top: -70%;
+		top: 3700px;
 	}
 	p:nth-child(10) {
-		top: -25%;
+		top: 4200px;
 	}
-	p:nth-child(18) {
-		top: -60%;
+	p:nth-child(12) {
+		top: 5400px;
+	}
+	p:nth-child(14) {
+		top: 6450px;
+	}
+	p:nth-child(17) {
+		top: 7900px;
 	}
 
-	.parallax:nth-child(3) {
+	.parallax:nth-child(1) {
 		background-image: url("parallax/street.jpg");
 		background-position: bottom;
+		margin-top: 650px;
 	}
-	.parallax:nth-child(6) {
+	.parallax:nth-child(4) {
 		background-image: url("parallax/green_door.jpg");
-		margin-top: -10%;
+		margin-top: 650px;
 	}
-	.parallax:nth-child(8) {
+	.parallax:nth-child(7) {
 		background-image: url("parallax/orange_jacket.jpg");
+		margin-top: 750px;
 	}
 	.parallax:nth-child(11) {
-		background-image: url("parallax/trumpet.jpg");
-		margin-top: -10%;
+		background-image: url("parallax/sf.jpg");
+		margin-top: 500px;
 	}
 	.parallax:nth-child(13) {
 		background-image: url("parallax/driveway.jpg");
+		margin-top: 450px;
+		height: 600px;
 	}
 	.parallax:nth-child(15) {
 		background-image: url("parallax/columbus.jpg");
+		margin-top: 550px;
 	}
-	.parallax:nth-child(17) {
+	.parallax:nth-child(16) {
 		background-image: url("parallax/brooklyn.jpg");
+		margin-top: 25px
 	}
-	.parallax:nth-child(19) {
+	.parallax:nth-child(18) {
 		background-image: url("parallax/park.jpg");
-		top: -140px;
+		top: 25px;
 	}
 	#links_container {
-		margin-top: -40%;
+		margin-top: -350px;
 	}
 }
 
@@ -145,6 +166,7 @@ p {
 
 	p {
 		font-size: 4vw;
+		position: relative;
 	}
 
 	#links_container {
