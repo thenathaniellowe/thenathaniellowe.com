@@ -127,7 +127,7 @@ p {
 	}
 	.parallax:nth-child(7) {
 		background-image: url("parallax/orange_jacket.jpg");
-		margin-top: 750px;
+		margin-top: 800px;
 	}
 	.parallax:nth-child(11) {
 		background-image: url("parallax/sf.jpg");
