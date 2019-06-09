@@ -154,7 +154,7 @@ p {
 		top: 6575px;
 	}
 	p:nth-child(15) {
-		top: 7825px;
+		top: 7850px;
 	}
 	p:nth-child(16) {
 		top: 8850px;
@@ -190,28 +190,28 @@ p {
 	}
 	.parallax:nth-child(5) {
 		background-image: url("parallax/orange_jacket.jpg");
-		margin-top: 475px;
+		margin-top: 500px;
 		height: 600px;
 	}
 	.parallax:nth-child(6) {
 		background-image: url("parallax/driveway.jpg");
-		margin-top: 375px;
+		margin-top: 400px;
 	}
 	.parallax:nth-child(7) {
 		background-image: url("parallax/green_door.jpg");
-		margin-top: 350px;
+		margin-top: 375px;
 		height: 900px;
 		background-position-y: center;
 	}
 	.parallax:nth-child(8) {
 		background-image: url("parallax/sf.jpg");
-		top: 375px;
+		top: 400px;
 		height: 650px;
 		background-position-y: center; 
 	}
 	.parallax:nth-child(9) {
 		background-image: url("parallax/brooklyn.jpg");
-		top: 975px;
+		top: 1050px;
 	}
 	.parallax:nth-child(10) {
 		background-image: url("parallax/park.jpg");
