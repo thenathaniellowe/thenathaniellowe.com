@@ -128,39 +128,39 @@ p {
 		text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 	}
 	p:nth-child(7) {
-		top: 2525px;
+		top: 2550px;
 	}
 	p:nth-child(8) {
-		top: 2725px;
+		top: 2750px;
 		width: 35%;
 		left: 27.4%;
 	}
 	p:nth-child(9) {
-		top: 3325px;
+		top: 3350px;
 	}
 	p:nth-child(10) {
 		top: 3925px;
 	}
 	p:nth-child(11) {
-		top: 4400px;
+		top: 4450px;
 	}
 	p:nth-child(12) {
 		top: 5050px;
 	}
 	p:nth-child(13) {
-		top: 5450px;
+		top: 5500px;
 	}
 	p:nth-child(14) {
-		top: 6525px;
+		top: 6575px;
 	}
 	p:nth-child(15) {
-		top: 7750px;
+		top: 7825px;
 	}
 	p:nth-child(16) {
-		top: 8775px;
+		top: 8850px;
 	}
 	p:nth-child(17) {
-		top: 9650px;
+		top: 9700px;
 		width: 60%;
 		text-align: center;
 	}
@@ -175,7 +175,7 @@ p {
 	}
 	.parallax:nth-child(2) {
 		background-image: url("parallax/street.jpg");
-		margin-top: 525px;
+		margin-top: 550px;
 	}
 	.parallax:nth-child(3) {
 		background-image: url("parallax/monterey.jpeg");
@@ -190,7 +190,7 @@ p {
 	}
 	.parallax:nth-child(5) {
 		background-image: url("parallax/orange_jacket.jpg");
-		margin-top: 450px;
+		margin-top: 475px;
 		height: 600px;
 	}
 	.parallax:nth-child(6) {
@@ -199,7 +199,7 @@ p {
 	}
 	.parallax:nth-child(7) {
 		background-image: url("parallax/green_door.jpg");
-		margin-top: 325px;
+		margin-top: 350px;
 		height: 900px;
 		background-position-y: center;
 	}
