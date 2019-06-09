@@ -211,7 +211,7 @@ p {
 	}
 	.parallax:nth-child(9) {
 		background-image: url("parallax/brooklyn.jpg");
-		top: 1050px;
+		top: 1100px;
 	}
 	.parallax:nth-child(10) {
 		background-image: url("parallax/park.jpg");
