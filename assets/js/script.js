@@ -1,28 +1,32 @@
 $(document).ready(function(){
 
     // page load
-    $(".inner_resume_container").css("opacity", "1");
-    $(".inner_resume_container").css("margin-top","3vw");
     $("#median").css("opacity", "1");
     $("#median").css("margin-top","3vw");
-    $("#portfolio_container").css("opacity", "1");
-    $("#journal_container").css("top","0px");
-    $("#journal_container").css("opacity","1");
+    $("#portfolio_container").css("opacity","1");
     $("#description_container").css("left","50%");
+    $("#face_container").css("opacity","1");
+    $("#face_container").css("width","600px");
 
     // index1
-    $("#button").click(function(){
-        $(this).hide(1000);
-        $(this).css("transition", "0s");
-        $("#life").css("opacity", "1");
-        $("#life")[0].play();
-        $(".nav1").show(2000);
-    });
-
-    $("#button").hover(function(){
+    $(".nav").hover(function(){
         $(this).css("opacity", "1");
     }, function() {
-        $(this).css("opacity", ".6");
+        $(this).css("opacity", ".1");
+    });
+
+    $("#face").hover(function(){
+        $("#identity_container").css("opacity", "1");
+        $("#face_container").css("width", "700px");
+        $(".nav").css("opacity", "0")
+    }, function() {
+        $("#identity_container").css("opacity", "0");
+        $("#face_container").css("width", "600px");
+        $(".nav").css("opacity", ".1");
+    });
+
+    $("#face").click(function(){
+        $("#brand_container").css("display", "inline-block");
     });
 
     // index2
